@@ -1,3 +1,19 @@
 body {
     font-family: 'Robot', sans-serif;
 }
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+   background: url("../images/qyMAOf0.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.quotes-container {}
+
+.features-container {}
