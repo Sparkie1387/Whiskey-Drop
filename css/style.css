@@ -7,13 +7,67 @@ body {
 .callout-container {
     height: 100vh;
 
-   background: url("../images/qyMAOf0.jpg") no-repeat bottom right fixed; 
+   background: url("../images/Whiskey-background.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+position: relative;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
 .quotes-container {}
 
 .features-container {}
+
+/*Block dividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    }
+
+.block-divider--black{
+background-color: #000000;
+}
+
+.block-divider--short
+{
+    width: 35px;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+
+.jumbotron small {
+    font-size: 80%;
+    font-style: italic;
+    color: #d0d0d0;
+}
